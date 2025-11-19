@@ -34,13 +34,13 @@
 
 📂 Estructura del proyecto:
 
-cv-geramorel/<br>
- ├── src/<br>
- │   ├── styles.css<br>
- │   ├── script.js<br>
- │   └── ...<br>
- ├── index.html<br>
- └── README.md<br>
+cv-geramorel/ <br>
+├── src/ <br>
+│   ├── styles.css <br>
+│   ├── script.js <br>
+│   └── ... <br>
+├── index.html<br>
+└── README.md<br>
 
 🚀 Mejoras futuras:
 
