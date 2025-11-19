@@ -34,14 +34,13 @@
 
 📂 Estructura del proyecto:
 
-´´´
-  cv-geramorel/
+'''cv-geramorel/
  ├── src/
  │   ├── styles.css
  │   ├── script.js
  │   └── ...
  ├── index.html
- └── README.md´´´
+ └── README.md'''
 
 
 🚀 Mejoras futuras:
