@@ -39,7 +39,7 @@ cv-geramorel/ <br>
 │   ├── styles.css <br>
 │   ├── script.js <br>
 │   └── ... <br>
-├── index.html<br>
+├── index.html <br>
 └── README.md<br>
 
 🚀 Mejoras futuras:
