@@ -1,59 +1,202 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Web - Gera Developer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-</head>
-<body>
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CV Web - Gera Developer</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        />
+    </head>
+    <body>
+        <aside class="sidebar">
+            <div class="logo">
+                <h1>Gera<br />Developer</h1>
+                <img
+                    class="img-logo"
+                    src="src/nuevo_logo_gera_dev.png"
+                    alt="Logo Gera Developer"
+                />
+            </div>
 
-    <!-- Barra lateral -->
-     <aside class="sidebar">
-        <div class="logo">
-            <h1>
-                Gera<br>Developer
-            </h1>
-            <img  class="img-logo" src="src/nuevo_logo_gera_dev.png" alt="Logo Gera Developer">
-        </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#sobre-mi"
+                            ><i class="fa-solid fa-user"></i>
+                            <span class="lang-es">Sobre mí</span
+                            ><span class="lang-en">About me</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#experiencia"
+                            ><i class="fa-solid fa-briefcase"></i>
+                            <span class="lang-es">Experiencia</span
+                            ><span class="lang-en">Experience</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#habilidades"
+                            ><i class="fa-solid fa-code"></i>
+                            <span class="lang-es">Habilidades</span
+                            ><span class="lang-en">Skills</span></a
+                        >
+                    </li>
+                    <li>
+                        <a href="#contacto"
+                            ><i class="fa-solid fa-envelope"></i>
+                            <span class="lang-es">Contacto</span
+                            ><span class="lang-en">Contact</span></a
+                        >
+                    </li>
+                </ul>
+            </nav>
 
-        <nav class="menu">
+            <div class="lang-toggle-container">
+                <button id="btn-lang" class="btn-lang">
+                    <i class="fa-solid fa-language"></i>
+                    <span class="lang-es">Switch to English</span>
+                    <span class="lang-en">Cambiar a Español</span>
+                </button>
+            </div>
 
-            <ul>
-                <li><a href="#sobre-mi"><i class="fa-solid fa-user"></i> Sobre mí</a></li>
-                <li><a href="#habilidades"><i class="fa-solid fa-code"></i> habilidades</a></li>
-                <li><a href="#contacto"><i class="fa-solid fa-envelope"></i> Contacto</a></li>
-            </ul>
-        </nav>
+            <div class="social">
+                <a
+                    href="https://github.com/GerardoMorel"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="visita mi perfil de Github"
+                    ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                    href="https://linkedin.com/in/gerardomorel27"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="visita mi perfil de LinkedIn"
+                    ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a
+                    href="mailto:gera.developer27@gmail.com"
+                    aria-label="Envía correo"
+                    ><i class="fa-solid fa-envelope"></i
+                ></a>
+            </div>
+        </aside>
 
-        <div class="social">
-            <a href="https://github.com/GerardoMorel" target="_blank" rel="noopener noreferrer" aria-label="visita mi perfil de Github"><i class="fa-brands fa-github" ></i></a>
-            <a href="https://linkedin.com/in/gerardomorel27" target="_blank" rel="noopener noreferrer" aria-label="visita mi perfil de LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="mailto:gera.developer27@gmail.com" aria-label="Envía correo"><i class="fa-solid fa-envelope"></i></a>
-        </div>
-     </aside>
+        <main class="contenido">
+            <section id="sobre-mi" class="bloque sobre-mi">
+                <h2>
+                    <span class="lang-es">Sobre mí</span>
+                    <span class="lang-en">About me</span>
+                </h2>
 
-     <!--  Contenido Principal  -->
+                <div class="sobre-mi-contenido">
+                    <img
+                        src="src/4X4.jpg"
+                        alt="Gerardo Morel"
+                        class="foto-perfil"
+                    />
 
-     <main class="contenido">
-        <section id="sobre-mi" class="bloque sobre-mi">
-            <h2>Sobre mí</h2>
-            <p>Hola, soy Gerardo Antonio Morel, Técnico Informático y Desarrollador Web Front-End apasionado por el diseño limpio, la optimización y la seguridad.
-            Me motiva crear interfaces funcionales y visualmente atractivas que ofrezcan experiencias fluidas y seguras.
-            Actualmente me enfoco en seguir perfeccionando mis habilidades en desarrollo web y ciberseguridad, con el objetivo de aportar soluciones de calidad en cada proyecto que emprendo. </p>
-        </section>
+                    <div class="texto-sobre-mi">
+                        <p class="lang-es">
+                            Hola, soy Gerardo Antonio Morel, Técnico Informático
+                            y Desarrollador Web Front-End apasionado por el
+                            diseño limpio, la optimización y la seguridad. Me
+                            motiva crear interfaces funcionales y visualmente
+                            atractivas que ofrezcan experiencias fluidas y
+                            seguras. Actualmente me enfoco en seguir
+                            perfeccionando mis habilidades en desarrollo web y
+                            ciberseguridad, con el objetivo de aportar
+                            soluciones de calidad en cada proyecto que emprendo.
+                        </p>
+                        <p class="lang-en">
+                            Hi, I'm Gerardo Antonio Morel, IT Technician and
+                            Front-End Web Developer passionate about clean
+                            design, optimization, and security. I am motivated
+                            by creating functional and visually appealing
+                            interfaces that offer smooth and secure experiences.
+                            I am currently focused on further perfecting my
+                            skills in web development and cybersecurity, with
+                            the goal of providing quality solutions in every
+                            project I undertake.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-        <section id="habilidades" class="bloque habilidades">
-            <h2>Habilidades</h2>
-            <p>Tengo conocimientos en: HTML5, CSS3, JavaScript, GitHub, Python</p>
-        </section>
+            <section id="habilidades" class="bloque habilidades">
+                <h2>
+                    <span class="lang-es">Habilidades</span>
+                    <span class="lang-en">Skills</span>
+                </h2>
+                <p class="lang-es">
+                    Tecnologías y herramientas con las que trabajo:
+                </p>
+                <p class="lang-en">Technologies and tools I work with:</p>
 
-        <section id="contacto"  class="bloque contacto">
-            <h2>Contacto</h2>
-            <p>Podés escribirme a <a href="mailto:gera.developer27@gmail.com">gera.developer27@gmail.com</a> o visitar mis redes. </p>
-        </section>
-     </main>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="src/html.png" alt="HTML5" />
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="src/text.png" alt="CSS3" />
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="src/js.png" alt="JavaScript" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="src/python.png" alt="Python" />
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <img src="src/physics.png" alt="React" />
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+            </section>
 
-</body>
+            <section id="contacto" class="bloque contacto">
+                <h2>
+                    <span class="lang-es">Contacto</span>
+                    <span class="lang-en">Contact</span>
+                </h2>
+                <p class="lang-es">
+                    Podés escribirme a
+                    <a href="mailto:gera.developer27@gmail.com"
+                        >gera.developer27@gmail.com</a
+                    >
+                    o visitar mis redes.
+                </p>
+                <p class="lang-en">
+                    You can write to me at
+                    <a href="mailto:gera.developer27@gmail.com"
+                        >gera.developer27@gmail.com</a
+                    >
+                    or visit my social networks.
+                </p>
+            </section>
+        </main>
+
+        <script>
+            const btnLang = document.getElementById("btn-lang");
+            btnLang.addEventListener("click", () => {
+                document.body.classList.toggle("show-en");
+                // Cambiar el atributo lang del HTML para accesibilidad
+                if (document.body.classList.contains("show-en")) {
+                    document.documentElement.lang = "en";
+                } else {
+                    document.documentElement.lang = "es";
+                }
+            });
+        </script>
+    </body>
 </html>
